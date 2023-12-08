@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(180deg, #E96C1C, #F39233, #FFBF4D);
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    margin-bottom: 1em;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    
+}
+
+header {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding: 20px;
+    h1 {
+        font-size: 24px;
+    }
+
+    li {
+        margin-bottom: 1em;
+    }
+
+    a { 
+        text-decoration: none;
+        color: #fff;
+        text-transform: uppercase;
+    }
+}
+
+h1 {
+    font-size: 5em;
+    color: #fff;
+    z-index: 10;
+}
+
+.parallax {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+
+    img {
+        position: absolute;
+    }
+    
+    .clouds {
+        width: 100%;
+        height: 50vh;
+        left: 0;
+        top: 0;
+    }
+
+    .building-back {
+        width: 100%;
+        aspect-ratio: 10/4;
+        left: 0;
+        bottom: 0;
+    }
+
+    .building-front {
+        width: 100%;
+        aspect-ratio: 16/9;
+        left: 0;
+        bottom: 0;
+    }
+
+    .sun {
+        width: 30vw;
+        
+    }
+}
+
+
+
